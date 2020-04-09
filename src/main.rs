@@ -39,7 +39,7 @@
 // fn include(some_string:&mut String) {
 //     some_string.push_str(" Stay safe");
 // }
-    // fn main(){                            // code for userinput
+    // fn main(){                            // code for userinput for  finding average of num
     //      let num1 = input_f32("num1");
     //      let num2 = input_f32("num2");
     //      let num3 = input_f32("num3");
@@ -56,7 +56,7 @@
     // }
 
     fn main(){
-        let input_str = input("Enter you input please:");
+        let input_str = input("Enter you input please:"); //input fun for finding length of string
         let (s2, length) = calculate_len(input_str);
         println!("length is {} of the string: {}",length,s2 );
 
